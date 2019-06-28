@@ -73,7 +73,7 @@ class CompanyUserCustomerConnectorDependencyProviderTest extends Unit
 
         $this->locatorMock->expects($this->atLeastOnce())
             ->method('__call')
-            ->with('company')
+            ->with('companyUser')
             ->willReturn($this->bundleProxyMock);
 
         $this->bundleProxyMock->expects($this->atLeastOnce())

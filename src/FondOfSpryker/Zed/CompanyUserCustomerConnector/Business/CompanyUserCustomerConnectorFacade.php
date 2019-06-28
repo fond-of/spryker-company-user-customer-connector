@@ -17,6 +17,6 @@ class CompanyUserCustomerConnectorFacade extends AbstractFacade implements Compa
      */
     public function hydrateCustomer(CustomerTransfer $customerTransfer): CustomerTransfer
     {
-        $this->getFactory()->createCustomerHydrator()->hydrate($customerTransfer);
+        return $this->getFactory()->createCustomerHydrator()->hydrate($customerTransfer);
     }
 }
