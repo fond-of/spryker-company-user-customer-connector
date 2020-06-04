@@ -18,7 +18,6 @@ class CompanyUserCustomerConnectorFactory extends AbstractFactory
     }
 
     /**
-
      * @return \FondOfSpryker\Client\CompanyUserCustomerConnector\Dependency\Client\CompanyUserCustomerConnectorToZedRequestClientInterface
      */
     protected function getZedRequestClient(): CompanyUserCustomerConnectorToZedRequestClientInterface
