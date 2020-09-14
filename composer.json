@@ -11,7 +11,7 @@
   "require": {
     "php": ">=7.1",
     "spryker/company-user": "^2.0.0",
-    "fond-of-spryker/customer-b2b": "dev-master"
+    "fond-of-spryker/customer-b2b": "dev-spryker_upgrade"
   },
   "require-dev": {
     "codeception/codeception": "^2.4",
